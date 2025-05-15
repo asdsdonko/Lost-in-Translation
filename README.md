@@ -12,7 +12,7 @@ Models from HuggingFace were used along with many installed programs from the op
 - Evaluate performance using BLEU and Perplexity (PLP) metrics
 - Identify the best mechanism for accurate, accessible translation
 
-![Diagram](images/Lost in translation.pdf)
+![Diagram](images/imageLIT.png)
 
 ## Usage
 
