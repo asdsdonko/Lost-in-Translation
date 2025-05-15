@@ -1,0 +1,12 @@
+save_data: data/onmt
+src_vocab: models/no_attention_model/vocab.src
+tgt_vocab: models/no_attention_model/vocab.tgt
+model_type: rnn
+encoder_type: brnn
+decoder_type: rnn
+position_encoding: false
+layers: 2
+rnn_size: 256
+word_vec_size: 256
+train_steps: 500
+save_model: models/no_attention_model/model

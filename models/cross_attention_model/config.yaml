@@ -1,0 +1,15 @@
+save_data: data/onmt
+src_vocab: models/cross_attention_model/vocab.src
+tgt_vocab: models/cross_attention_model/vocab.tgt
+model_type: transformer
+encoder_type: transformer
+decoder_type: transformer
+position_encoding: true
+layers: 4
+rnn_size: 512
+word_vec_size: 512
+transformer_ff: 2048
+heads: 8
+attention_type: cross
+train_steps: 500
+save_model: models/cross_attention_model/model
